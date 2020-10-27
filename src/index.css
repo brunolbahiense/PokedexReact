@@ -3,6 +3,10 @@
     padding: 0;
     border: 0;
 }
+@font-face{
+	font-family:'pkm';
+	src: url('./fonts/pkm.ttf');
+}
 body {
 	background: #EFEFBB;
 	background: #2B2A2C;
@@ -39,6 +43,7 @@ h1 {
 	padding: 10px;
 	text-align: center;
 	font-size: 54px;
+	font-family: 'pkm';
 }
 
 .pokedex {
@@ -173,3 +178,4 @@ h1 {
 			transform: translateY(0);
 	}
 }
+
